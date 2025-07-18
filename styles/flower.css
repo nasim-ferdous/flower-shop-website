@@ -17,6 +17,20 @@
     font-weight: 700;
     font-size: 20px;
 }
+.max-width{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.primary-text-color{
+    color: rgba(39, 39, 39, 1);
+}
+.secondary-text-color{
+    color: rgba(39, 39, 39, 0.6);
+}
+.text-1{
+    text-align: center;
+    border-bottom: 1px solid rgba(39, 39, 39, 0.6);
+}
 
 /* header section styles */
 header{
@@ -44,16 +58,46 @@ header{
     font-weight: 400;
     color: rgba(39, 39, 39, 0.6);
 }
+/* features section styles */
+.feature-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+.feature-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+.pink-flower{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image-1{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0 0 ;
+}
+
+.image-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0 0 ;
+}
+.image-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0 0 ;
+}
 
 /* Media screen styles for small screen*/
 @media screen and (max-width:576px) {
-    .banner{
+    .banner, .pink-flower{
         flex-direction: column;
     }
     .banner-left img{
         width: 100%;
 
     }
+
     
 }
 
