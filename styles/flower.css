@@ -100,6 +100,13 @@ header{
 
     
 }
+/* media screen styles for tab */
+@media screen and (min-width:576px) and (max-width:990px) {
+    .pink-flower{
+        flex-wrap: wrap;
+    }
+    
+}
 
 
 
